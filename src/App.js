@@ -1,5 +1,5 @@
 import React from 'react'
-import {Shortner} from './components/Shortner'
+import {Shortner} from './components/Shortener'
 
 function App() {
   return (
