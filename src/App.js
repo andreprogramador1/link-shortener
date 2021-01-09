@@ -5,7 +5,7 @@ import {Hero} from './components/Hero'
 
 function App() {
   return (
-    <div className="App" style={{ overflow: 'hidden' }}>
+    <div className="App" style={{ overflowX: 'hidden'}}>
       <Nav/>
       <Hero/>
       <Shortner/>

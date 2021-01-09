@@ -12,7 +12,7 @@ export const Hero = () => {
           detailed insights on how your links are
           performing
         </p>
-        <button></button>
+        <button>Get Started</button>
       </div>
     </Container>
   );
