@@ -1,11 +1,13 @@
 import React from 'react'
 import {Shortner} from './components/Shortener'
 import {Nav} from './components/Nav'
+import {Hero} from './components/Hero'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{ overflow: 'hidden' }}>
       <Nav/>
+      <Hero/>
       <Shortner/>
     </div>
   );
