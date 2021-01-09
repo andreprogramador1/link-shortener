@@ -10,13 +10,12 @@ export const Shortner = () => {
     
     async function getContent() {
         try {
-            const response = await axios.get(`https://api.shrtco.de/v2/shorten?url=${link}/very/long/link.html`);
+            const response = await axios.get(`https://api.shrtco.de/v2/shorten${link ? '?url='+link+'/very/long/link.html' : ''}`);
             // console.log(response.data.result.short_link)
             console.log(response)
         } catch(error) {
             if(error.response) {
                 console.log(error.response)
-                
             }
         }
         
