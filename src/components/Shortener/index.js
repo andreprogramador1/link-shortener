@@ -27,9 +27,8 @@ export const Shortner = () => {
             <Container>
                 <input type="text" placeholder='url' onChange={(e) => {setLink(e.target.value)}}></input>
                 <button type="button" onClick={getContent}>send</button>
-                <List data={data}/>
-               
             </Container>
+            <List data={data}/>
         </>
     );
 }

@@ -21,5 +21,29 @@ export const Container = styled.div`
     align-items: center;
     text-align: center;
     margin-top: 400px;
+    padding: 0 40px;
+    margin-bottom: 80px;
+
+    h1 {
+      color: #675e5e;
+      font-size: 45px;
+    }
+
+    p {
+      color: #b1b1b1;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 1.5;
+    }
+
+    button {
+      background-color: turquoise;
+      border: none;
+      border-radius: 500px;
+      font-weight: 800;
+      font-size: 20px;
+      color: white;
+      padding: 13px 26px;
+    }
   }
 `;
