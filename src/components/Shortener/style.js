@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import backMobile from '../../images/bg-shorten-mobile.svg'
 
 export const Container = styled.div`
     display: flex;
@@ -6,8 +7,8 @@ export const Container = styled.div`
 
     align-items: center;
     margin: auto;
-    // background-image: url("../images/bg-shorten-mobile.svg");
-    background-color: aliceblue;
+    background-image: url(${backMobile});
+    /* background-color: aliceblue; */
     padding: 60px 50px;
     border-radius: 15px;
 
