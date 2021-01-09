@@ -25,12 +25,12 @@ export const Container = styled.div`
     margin-bottom: 80px;
 
     h1 {
-      color: #675e5e;
+      color: #2b2525;
       font-size: 45px;
     }
 
     p {
-      color: #b1b1b1;
+      color: #756969;
       font-weight: bold;
       font-size: 20px;
       line-height: 1.5;

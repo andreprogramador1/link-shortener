@@ -6,7 +6,7 @@ export const Nav = () => {
   return(
     <Container>
       <h1>Shortly</h1>
-      <MenuIcon color="disabled" fontSize="large"/>
+      <MenuIcon style={{ color: '#756969' }} fontSize="large"/>
     </Container>
   );
 }

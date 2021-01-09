@@ -8,7 +8,7 @@ export const Container = styled.div`
     margin: auto;
     background-image: url(${backMobile});
     /* background-color: aliceblue; */
-    padding: 60px 50px;
+    padding: 20px;
     border-radius: 15px;
     background-color: #5f4a77;
     margin: 0 70px;
@@ -16,14 +16,14 @@ export const Container = styled.div`
 
     input {
         border: 1px solid #ccc;
-        padding: 10px;
+        padding: 13px 50px;
         border-radius: 6px;
     }
 
     button {
         background-color: turquoise;
         border-radius: 6px;
-        padding: 10px 80px;
+        padding: 13px 120px;
         color: white;
         border: none;
         margin-top: 20px;

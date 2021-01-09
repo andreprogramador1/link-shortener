@@ -6,6 +6,6 @@ export const Container = styled.div`
   justify-content: space-around;
 
   h1 {
-    color: #675e5e;
+    color: #2b2525;
   }
 `;
